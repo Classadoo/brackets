@@ -30,6 +30,7 @@ define(function (require, exports, module) {
 
         // Custom extensions we want loaded by default
         "bramble",
+        "classadoo",
         "Autosave",
         "brackets-paste-and-indent",
         "BrambleUrlCodeHints",

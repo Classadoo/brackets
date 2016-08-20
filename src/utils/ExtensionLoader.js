@@ -306,6 +306,7 @@ define(function (require, exports, module) {
                 
                 for (i = 0; i < contents.length; i++) {
                     if (contents[i].isDirectory) {
+                        debugger
                         // FUTURE (JRB): read package.json instead of just using the entrypoint "main".
                         // Also, load sub-extensions defined in package.json.
                         extensions.push(contents[i].name);
